@@ -1,5 +1,4 @@
-/* DeepCuts stylesheet */
-/* made by me */
+
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -23,7 +22,6 @@ body {
 
 a { color: white; text-decoration: none; }
 
-/* header */
 
 .topbar {
   background: #000;
@@ -66,7 +64,7 @@ a { color: white; text-decoration: none; }
 .genre-tag:hover,
 .footer-links a:hover { color: var(--green); border-color: var(--green); }
 
-/* nav */
+
 
 nav {
   background: black;
@@ -90,7 +88,7 @@ nav ul li a {
 nav ul li a:hover { color: white; }
 nav ul li a.active { border-bottom: 3px solid var(--green); }
 
-/* hero */
+
 
 .hero {
   text-align: center;
@@ -126,7 +124,7 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
   font-size: 16px;
 }
 
-/* main layout */
+
 
 .main-grid { display: grid; grid-template-columns: 1fr 1px 380px; }
 .divider-v { background: var(--border); width: 1px; }
@@ -141,7 +139,6 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
   margin: 10px 0 15px;
 }
 
-/* deepcut card */
 
 .deepcut-card {
   display: flex;
@@ -186,7 +183,7 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
 .listen-links a { color: var(--green); }
 .listen-links a:hover { text-decoration: underline; }
 
-/* collections */
+
 
 .collections-grid { display: flex; gap: 15px; margin-top: 15px; flex-wrap: wrap; }
 .collection-item { width: 150px; cursor: pointer; }
@@ -206,7 +203,7 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
 .collection-name { color: white; font-size: 13px; font-weight: bold; }
 .collection-sub, .recent-artist { color: var(--muted); font-size: 12px; }
 
-/* right column */
+
 
 .col-right {
   background: var(--surface);
@@ -227,7 +224,7 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
   border-bottom: 1px solid var(--border);
 }
 
-/* how it works */
+
 
 .how-steps { list-style: none; }
 
@@ -254,7 +251,7 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
   font-weight: bold;
 }
 
-/* genres */
+
 
 .genre-list { display: flex; flex-wrap: wrap; gap: 8px; }
 
@@ -267,7 +264,6 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
   cursor: pointer;
 }
 
-/* recently added */
 
 .recent-item {
   display: flex;
@@ -299,7 +295,7 @@ nav ul li a.active { border-bottom: 3px solid var(--green); }
 
 .recent-item:hover .recent-play { opacity: 1; }
 
-/* footer */
+
 
 footer {
   background: #000;
@@ -331,7 +327,7 @@ footer {
 .footer-links a { color: #888; font-size: 12px; }
 .footer-copy { color: var(--dimmed); font-size: 12px; }
 
-/* mobile - kind of works */
+
 
 @media (max-width: 768px) {
   .main-grid { display: block; }
