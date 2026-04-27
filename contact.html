@@ -3,187 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact DeepCuts - Send us a song recommendation or get in touch with us.">
+  <meta name="description" content="Contact DeepCuts - Send a song recommendation or get in touch.">
   <meta name="author" content="DeepCuts">
   <title>DeepCuts - Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* contact page specific styles */
-
-    .contact-hero {
-      text-align: center;
-      padding: 50px 30px;
-      background: #0d2d18;
-      border-bottom: 1px solid #333;
-    }
-
-    .contact-hero h1 { font-size: 40px; margin-bottom: 10px; }
-    .contact-hero h1 em { color: #1db954; font-style: normal; }
-    .contact-hero p { color: #aaa; font-size: 15px; }
-
-    .contact-content {
-      max-width: 850px;
-      margin: 0 auto;
-      padding: 40px 25px;
-    }
-
-    .contact-grid {
-      display: flex;
-      gap: 30px;
-      flex-wrap: wrap;
-    }
-
-    /* left side - info */
-
-    .contact-info {
-      flex: 1;
-      min-width: 220px;
-    }
-
-    .contact-info h2 {
-      color: #1db954;
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin-bottom: 15px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #333;
-    }
-
-    .contact-info p {
-      color: #aaa;
-      font-size: 14px;
-      line-height: 1.8;
-      margin-bottom: 20px;
-    }
-
-    .contact-detail {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 14px;
-      color: #aaa;
-      font-size: 14px;
-    }
-
-    .contact-detail span {
-      color: #1db954;
-      font-size: 16px;
-    }
-
-    .contact-detail a {
-      color: #aaa;
-    }
-
-    .contact-detail a:hover { color: #1db954; text-decoration: underline; }
-
-    .platform-section { margin-top: 25px; }
-
-    .platform-section h2 {
-      color: #1db954;
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin-bottom: 15px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #333;
-    }
-
-    .platform-buttons {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .platform-btn {
-      background: #1a1a1a;
-      border: 1px solid #333;
-      color: #aaa;
-      padding: 10px 15px;
-      border-radius: 5px;
-      font-size: 13px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      transition: border-color 0.2s;
-    }
-
-    .platform-btn:hover { border-color: #1db954; color: #1db954; }
-
-    /* right side - form */
-
-    .contact-form-wrap {
-      flex: 2;
-      min-width: 280px;
-      background: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 8px;
-      padding: 25px;
-    }
-
-    .contact-form-wrap h2 {
-      color: #1db954;
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin-bottom: 20px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #333;
-    }
-
-    .form-group {
-      margin-bottom: 18px;
-    }
-
-    .form-group label {
-      display: block;
-      color: #aaa;
-      font-size: 13px;
-      margin-bottom: 6px;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea {
-      width: 100%;
-      padding: 10px 14px;
-      background: #2a2a2a;
-      border: 1px solid #444;
-      border-radius: 5px;
-      color: white;
-      font-size: 14px;
-      font-family: Arial, sans-serif;
-      outline: none;
-    }
-
-    .form-group input:focus,
-    .form-group select,
-    .form-group textarea:focus {
-      border-color: #1db954;
-    }
-
-    .form-group select option { background: #2a2a2a; }
-
-    .form-group textarea { resize: vertical; min-height: 100px; }
-
-    .form-submit {
-      background: #1db954;
-      color: black;
-      padding: 12px 28px;
-      border: none;
-      border-radius: 5px;
-      font-size: 14px;
-      font-weight: bold;
-      cursor: pointer;
-      font-family: Arial, sans-serif;
-      width: 100%;
-    }
-
-    .form-submit:hover { background: #1ed760; }
-  </style>
 </head>
 <body>
 
@@ -193,28 +17,23 @@
       <div class="logo-circle">DC</div>
       <span class="logo-text">Deep<em>Cuts</em></span>
     </div>
-    <div class="platform-links">
-      <a href="#">YouTube</a>
-      <a href="#">Spotify</a>
-      <a href="#">Apple Music</a>
-    </div>
+    <a href="https://www.spotify.com" target="_blank" class="btn-spotify-top">&#9835; Open Spotify</a>
   </header>
 
-  <!-- navbar -->
+  <!-- nav -->
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="#">Browse</a></li>
-      <li><a href="#">Vibes</a></li>
+      <li><a href="browse.html">Browse</a></li>
       <li><a href="about.html">About Me</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
   </nav>
 
   <!-- hero -->
-  <section class="contact-hero">
+  <section class="page-hero">
     <h1>Get In <em>Touch</em></h1>
-    <p>Have a song recommendation? Want to reach out? We'd love to hear from you.</p>
+    <p>Have a song recommendation? Want to reach out? I'd love to hear from you.</p>
   </section>
 
   <!-- main content -->
@@ -222,30 +41,29 @@
 
     <div class="contact-grid">
 
-      <!-- left info column -->
+      <!-- left info -->
       <div class="contact-info">
 
         <h2>Say Hello</h2>
-        <p>Whether you have a song you think belongs on DeepCuts, feedback about the site, or just want to talk music, feel free to reach out. The best way to get in touch is through the form or by sending an email directly.</p>
+        <p>Whether you have a song you think belongs on DeepCuts, feedback about the site, or just want to talk music — feel free to reach out. The best way is through the form or by sending an email directly.</p>
 
         <div class="contact-detail">
           <span>&#9993;</span>
-          <!-- email link -->
           <a href="mailto:hello@deepcuts.com">hello@deepcuts.com</a>
         </div>
 
         <div class="platform-section">
-          <h2>Find Us On</h2>
+          <h2>Find Me On</h2>
           <div class="platform-buttons">
-            <a href="https://www.spotify.com" target="_blank" class="platform-btn">&#9835; Spotify</a>
-            <a href="https://www.youtube.com" target="_blank" class="platform-btn">&#9654; YouTube</a>
-            <a href="https://music.apple.com" target="_blank" class="platform-btn">&#9835; Apple Music</a>
+            <a href="https://www.spotify.com" target="_blank" class="platform-btn">&#9835;&nbsp; Spotify</a>
+            <a href="https://www.youtube.com" target="_blank" class="platform-btn">&#9654;&nbsp; YouTube</a>
+            <a href="https://music.apple.com" target="_blank" class="platform-btn">&#9835;&nbsp; Apple Music</a>
           </div>
         </div>
 
       </div>
 
-      <!-- right form column -->
+      <!-- right form -->
       <div class="contact-form-wrap">
         <h2>Send a Message</h2>
 
@@ -274,7 +92,7 @@
 
           <div class="form-group">
             <label for="song">Song You're Recommending (optional)</label>
-            <input type="text" id="song" name="song" placeholder="Song - Artist">
+            <input type="text" id="song" name="song" placeholder="Song – Artist">
           </div>
 
           <div class="form-group">

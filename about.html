@@ -6,171 +6,8 @@
   <meta name="description" content="About DeepCuts - Learn about the site and the person behind it.">
   <meta name="author" content="DeepCuts">
   <title>DeepCuts - About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* about page specific styles */
-
-    .about-hero {
-      text-align: center;
-      padding: 50px 30px;
-      background-color: #0d2d18;
-      border-bottom: 1px solid #333;
-    }
-
-    .about-hero h1 {
-      font-size: 40px;
-      color: white;
-      margin-bottom: 10px;
-    }
-
-    .about-hero h1 em {
-      color: #1db954;
-      font-style: normal;
-    }
-
-    .about-hero p {
-      color: #aaa;
-      font-size: 15px;
-    }
-
-    .about-content {
-      max-width: 850px;
-      margin: 0 auto;
-      padding: 40px 25px;
-    }
-
-    .about-section {
-      margin-bottom: 45px;
-    }
-
-    .about-section h2 {
-      color: #1db954;
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin-bottom: 15px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #333;
-    }
-
-    .about-section p {
-      color: #ccc;
-      font-size: 15px;
-      line-height: 1.8;
-      margin-bottom: 12px;
-    }
-
-    /* the 3 info cards */
-
-    .about-cards {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 10px;
-    }
-
-    .about-card {
-      background-color: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 8px;
-      padding: 20px;
-      flex: 1;
-      min-width: 200px;
-    }
-
-    .about-card h3 {
-      color: #1db954;
-      font-size: 15px;
-      margin-bottom: 10px;
-    }
-
-    .about-card p {
-      color: #aaa;
-      font-size: 14px;
-      line-height: 1.7;
-    }
-
-    /* team section */
-
-    .team-grid {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 10px;
-    }
-
-    .team-card {
-      background-color: #1a1a1a;
-      border: 1px solid #333;
-      border-radius: 8px;
-      padding: 20px;
-      width: 200px;
-      text-align: center;
-    }
-
-    .team-avatar {
-      width: 70px;
-      height: 70px;
-      background-color: #2a2a2a;
-      border-radius: 50%;
-      margin: 0 auto 12px auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #555;
-      font-size: 11px;
-    }
-
-    .team-name {
-      color: white;
-      font-size: 14px;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-
-    .team-role {
-      color: #1db954;
-      font-size: 12px;
-    }
-
-    /* contact/cta box */
-
-    .cta-box {
-      background-color: #1a1a1a;
-      border: 1px solid #1db954;
-      border-radius: 8px;
-      padding: 30px;
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    .cta-box h3 {
-      color: white;
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-
-    .cta-box p {
-      color: #aaa;
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-
-    .cta-btn {
-      background-color: #1db954;
-      color: black;
-      padding: 10px 24px;
-      border-radius: 5px;
-      font-weight: bold;
-      font-size: 14px;
-      display: inline-block;
-    }
-
-    .cta-btn:hover {
-      background-color: #1ed760;
-    }
-  </style>
 </head>
 <body>
 
@@ -180,26 +17,21 @@
       <div class="logo-circle">DC</div>
       <span class="logo-text">Deep<em>Cuts</em></span>
     </div>
-    <div class="platform-links">
-      <a href="#">YouTube</a>
-      <a href="#">Spotify</a>
-      <a href="#">Apple Music</a>
-    </div>
+    <a href="https://www.spotify.com" target="_blank" class="btn-spotify-top">&#9835; Open Spotify</a>
   </header>
 
-  <!-- navbar -->
+  <!-- nav -->
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="#">Browse</a></li>
-      <li><a href="#">Vibes</a></li>
+      <li><a href="browse.html">Browse</a></li>
       <li><a href="about.html" class="active">About Me</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
   <!-- hero -->
-  <section class="about-hero">
+  <section class="page-hero">
     <h1>About <em>DeepCuts</em></h1>
     <p>We find the music the algorithm missed.</p>
   </section>
@@ -207,16 +39,14 @@
   <!-- main content -->
   <main class="about-content">
 
-    <!-- what is deepcuts -->
     <div class="about-section">
       <h2>What is DeepCuts?</h2>
-      <p>DeepCuts is a music discovery site built for people who are tired of hearing the same songs over and over. We focus on finding the hidden gems, the deep cuts, the songs that never got the attention they deserved but absolutely should have.</p>
+      <p>DeepCuts is a music discovery site built for people who are tired of hearing the same songs over and over. We focus on finding the hidden gems — the deep cuts — the songs that never got the attention they deserved but absolutely should have.</p>
       <p>Unlike streaming algorithms that just show you more of what you already listen to, DeepCuts uses real human curation. You tell us a song you love, and we find something new for you based on actual taste and knowledge, not just data.</p>
     </div>
 
-    <!-- why we built it -->
     <div class="about-section">
-      <h2>Why We Built This</h2>
+      <h2>Why I Built This</h2>
       <div class="about-cards">
         <div class="about-card">
           <h3>&#9835; Real Curation</h3>
@@ -224,31 +54,29 @@
         </div>
         <div class="about-card">
           <h3>&#127909; Music + Visuals</h3>
-          <p>We believe some songs only make complete sense when you see the music video too. We try to bring both the audio and visual experience together in one place.</p>
+          <p>Some songs only make complete sense when you see the music video too. I try to bring both the audio and visual experience together in one place.</p>
         </div>
         <div class="about-card">
           <h3>&#127925; All Platforms</h3>
-          <p>Not everyone uses the same streaming service. We try to link to Spotify, YouTube, and Apple Music wherever possible so you can listen however you want.</p>
+          <p>Not everyone uses the same streaming service. I try to link to Spotify, YouTube, and Apple Music wherever possible so you can listen however you want.</p>
         </div>
       </div>
     </div>
 
-    <!-- how it works -->
     <div class="about-section">
       <h2>How It Works</h2>
-      <p>The process is pretty simple. You enter a song that you love into the search bar on the homepage. From there, one of our human reviewers looks at your pick, thinks about the vibe, the mood, the genre, and everything else that makes that song what it is, and finds you something you probably haven't heard before but will love.</p>
-      <p>We're not trying to replace Spotify or Apple Music. We just want to be the place you come to when you feel like you've heard everything and need something fresh.</p>
+      <p>The process is simple. You enter a song you love into the search bar on the homepage. From there, I look at your pick, think about the vibe, the mood, the genre, and everything else that makes that song what it is — and find you something you probably haven't heard before but will love.</p>
+      <p>I'm not trying to replace Spotify or Apple Music. I just want to be the place you come to when you feel like you've heard everything and need something fresh.</p>
     </div>
 
-    <!-- about me -->
     <div class="about-section">
       <h2>About Me</h2>
-      <div class="team-card" style="display: flex; align-items: center; gap: 20px; width: 100%; text-align: left;">
-        <div class="team-avatar" style="min-width: 70px;">Photo</div>
+      <div class="team-card">
+        <div class="team-avatar">Photo</div>
         <div>
-          <p class="team-name" style="font-size: 18px; margin-bottom: 6px;">Your Name Here</p>
-          <p class="team-role" style="margin-bottom: 10px;">Founder & Curator</p>
-          <p style="color: #aaa; font-size: 14px; line-height: 1.7;">Write a little bit about yourself here. Why you made this site, what kind of music you're into, and what drives you to find good music for other people.</p>
+          <p class="team-name">Your Name Here</p>
+          <p class="team-role">Founder &amp; Curator</p>
+          <p class="team-bio">Write a little bit about yourself here. Why you made this site, what kind of music you're into, and what drives you to find good music for other people.</p>
         </div>
       </div>
     </div>
