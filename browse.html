@@ -117,56 +117,95 @@
 
     <!-- browse by genre -->
     <div class="browse-section">
-      <h2>Browse by Genre</h2>
-      <p>Pick a genre below to explore our picks in that category. Each collection is curated around a specific sound and mood.</p>
+      <h2>If You Like... You Might Like...</h2>
+      <p>Enter a song you love and we find you something new. Here are some of our recent pairings — the seed song on the left, our recommendation on the right.</p>
 
-      <div class="browse-cards">
+      <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 20px;">
 
-        <div class="browse-card">
-          <div class="browse-card-cover">Album Cover</div>
-          <div class="browse-card-info">
-            <h3>Indie Rock</h3>
-            <p>Raw, guitar-driven, emotionally charged tracks you probably haven't heard yet.</p>
+        <div style="display: flex; align-items: center; gap: 16px; background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 20px; flex-wrap: wrap;">
+          <!-- seed -->
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #535353; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">If you like</p>
+              <p style="font-size: 14px; font-weight: 600;">Seed Song Title</p>
+              <p style="font-size: 12px; color: #a7a7a7;">Seed Artist</p>
+            </div>
+          </div>
+          <!-- arrow -->
+          <span style="color: #1db954; font-size: 24px; flex-shrink: 0;">&#8594;</span>
+          <!-- recommendation -->
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #1db954; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">You might like</p>
+              <p style="font-size: 14px; font-weight: 600;">Recommended Song</p>
+              <p style="font-size: 12px; color: #a7a7a7; margin-bottom: 6px;">Recommended Artist</p>
+              <a href="#" style="font-size: 12px; color: #1db954; font-weight: 600;">&#9654; Listen on Spotify</a>
+            </div>
           </div>
         </div>
 
-        <div class="browse-card">
-          <div class="browse-card-cover">Album Cover</div>
-          <div class="browse-card-info">
-            <h3>R&amp;B</h3>
-            <p>Smooth, soulful, and deeply personal. The kind of R&amp;B that stays with you.</p>
+        <div style="display: flex; align-items: center; gap: 16px; background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 20px; flex-wrap: wrap;">
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #535353; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">If you like</p>
+              <p style="font-size: 14px; font-weight: 600;">Seed Song Title</p>
+              <p style="font-size: 12px; color: #a7a7a7;">Seed Artist</p>
+            </div>
+          </div>
+          <span style="color: #1db954; font-size: 24px; flex-shrink: 0;">&#8594;</span>
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #1db954; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">You might like</p>
+              <p style="font-size: 14px; font-weight: 600;">Recommended Song</p>
+              <p style="font-size: 12px; color: #a7a7a7; margin-bottom: 6px;">Recommended Artist</p>
+              <a href="#" style="font-size: 12px; color: #1db954; font-weight: 600;">&#9654; Listen on Spotify</a>
+            </div>
           </div>
         </div>
 
-        <div class="browse-card">
-          <div class="browse-card-cover">Album Cover</div>
-          <div class="browse-card-info">
-            <h3>Electronic</h3>
-            <p>Chill, atmospheric, and hypnotic. Perfect for late nights or long drives.</p>
+        <div style="display: flex; align-items: center; gap: 16px; background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 20px; flex-wrap: wrap;">
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #535353; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">If you like</p>
+              <p style="font-size: 14px; font-weight: 600;">Seed Song Title</p>
+              <p style="font-size: 12px; color: #a7a7a7;">Seed Artist</p>
+            </div>
+          </div>
+          <span style="color: #1db954; font-size: 24px; flex-shrink: 0;">&#8594;</span>
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #1db954; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">You might like</p>
+              <p style="font-size: 14px; font-weight: 600;">Recommended Song</p>
+              <p style="font-size: 12px; color: #a7a7a7; margin-bottom: 6px;">Recommended Artist</p>
+              <a href="#" style="font-size: 12px; color: #1db954; font-weight: 600;">&#9654; Listen on Spotify</a>
+            </div>
           </div>
         </div>
 
-        <div class="browse-card">
-          <div class="browse-card-cover">Album Cover</div>
-          <div class="browse-card-info">
-            <h3>Jazz</h3>
-            <p>From classic to contemporary, jazz picks that feel fresh no matter when they were made.</p>
+        <div style="display: flex; align-items: center; gap: 16px; background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 20px; flex-wrap: wrap;">
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #535353; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">If you like</p>
+              <p style="font-size: 14px; font-weight: 600;">Seed Song Title</p>
+              <p style="font-size: 12px; color: #a7a7a7;">Seed Artist</p>
+            </div>
           </div>
-        </div>
-
-        <div class="browse-card">
-          <div class="browse-card-cover">Album Cover</div>
-          <div class="browse-card-info">
-            <h3>Hip Hop</h3>
-            <p>Underground and overlooked rap that deserves a much bigger audience.</p>
-          </div>
-        </div>
-
-        <div class="browse-card">
-          <div class="browse-card-cover">Album Cover</div>
-          <div class="browse-card-info">
-            <h3>Indie Folk</h3>
-            <p>Quiet, honest, and beautifully understated. Songs that feel like a conversation.</p>
+          <span style="color: #1db954; font-size: 24px; flex-shrink: 0;">&#8594;</span>
+          <div style="display: flex; gap: 14px; align-items: center; flex: 1; min-width: 200px;">
+            <div style="width: 64px; height: 64px; background: #2e2e2e; border-radius: 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; color: #535353;">Cover</div>
+            <div>
+              <p style="font-size: 10px; color: #1db954; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 3px;">You might like</p>
+              <p style="font-size: 14px; font-weight: 600;">Recommended Song</p>
+              <p style="font-size: 12px; color: #a7a7a7; margin-bottom: 6px;">Recommended Artist</p>
+              <a href="#" style="font-size: 12px; color: #1db954; font-weight: 600;">&#9654; Listen on Spotify</a>
+            </div>
           </div>
         </div>
 
